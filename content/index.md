@@ -10,7 +10,7 @@ Welcome. This is my personal digital garden — a growing knowledge base spannin
 
 Jump straight into a topic:
 
-## JavaScript
+## [[JavaScript/index|JavaScript]]
 
 - [[closure|Closure]] and [[lexical-scope|Lexical scope]]
 - [[variable|Variable]], [[truthy-falsy|Truthy and falsy]], and [[strict-equality|Strict equality]]
@@ -22,7 +22,7 @@ Jump straight into a topic:
 - [[debounce|Debounce]], [[throttle|Throttle]], and [[memoization|Memoization]]
 - [[generator|Generator]], [[iterator|Iterator]], [[optional-chaining|Optional chaining]], and [[nullish-coalescing|Nullish coalescing]]
 
-## DSA
+## [[DSA/index|DSA]]
 
 - [[dsa/|DSA]], [[big-o-notation|Big O notation]], [[time-complexity|Time complexity]], and [[space-complexity|Space complexity]]
 - [[array-data-structure|Array]], [[linked-list|Linked list]], [[stack|Stack]], [[queue|Queue]], and [[hashmap|HashMap]]
