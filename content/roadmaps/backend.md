@@ -1,7 +1,7 @@
 ---
 title: Backend Roadmap
 description: A map of backend engineering topics, grouped by area.
-draft: true
+draft: false
 ---
 
 A map of backend engineering areas and the topics under each. Follow a link to dive into a topic's notes.

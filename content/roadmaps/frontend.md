@@ -1,7 +1,7 @@
 ---
 title: Frontend Roadmap
 description: A map of frontend engineering topics, grouped by area.
-draft: true
+draft: false
 ---
 
 A map of frontend engineering areas and the topics under each. Follow a link to dive into a topic's notes.
