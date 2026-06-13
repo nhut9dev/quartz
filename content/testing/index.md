@@ -24,4 +24,9 @@ Tests turn assumptions into checks, so you can change code with confidence inste
 - [[testing/flaky-test|Flaky test]]
 - [[frontend-quality-gate|Frontend quality gate]]
 
+## Test infrastructure
+- [[testcontainers|Testcontainers]]
+- [[test-data-management|Test data management]]
+- [[chaos-engineering|Chaos engineering]]
+
 Related tool notes: [[../jest/|Jest]] and [[../playwright/|Playwright]].

@@ -19,6 +19,7 @@ Jest is a JavaScript test runner commonly used for unit tests, integration tests
 
 ## Test doubles
 
+- [[jest/test-double|Test double]]
 - [[jest-mock-function|Mock function]]
 - [[jest-spy|Spy]]
 - [[module-mock|Module mock]]
@@ -32,5 +33,6 @@ Jest is a JavaScript test runner commonly used for unit tests, integration tests
 
 ## Test levels
 
+- [[jest/test-pyramid|Test pyramid]]
 - [[jest/unit-test|Unit test]]
 - [[jest/integration-test|Integration test]]

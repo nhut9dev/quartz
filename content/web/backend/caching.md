@@ -19,3 +19,19 @@ Cache-Control: public, max-age=31536000, immutable
 That header fits fingerprinted static assets like `/app.8f3a.js`, where the URL changes when the content changes. For user-specific or sensitive responses, cache rules should be much stricter.
 
 Good caching depends on stable keys. A cached response for `/products?page=2` is only safe to reuse for the same URL, relevant headers, and user context.
+
+## How it works
+
+A cache sits in front of the real computation or fetch and is checked first. The **cache key** is a function of the request — usually the URL plus whichever headers the response varies on (`Vary: Cookie`, `Vary: Accept-Language`) and any relevant user context. On a hit, the stored response is returned without touching the origin; on a miss, the origin is called and the result is stored under that key for next time, subject to a TTL or invalidation rule.
+
+## When to use
+
+Long, aggressive caching (`max-age=31536000, immutable`) fits content that's identical for everyone and changes only by changing its URL — fingerprinted assets. Shorter TTLs or **stale-while-revalidate** fit data that's mostly stable but occasionally updates, serving the cached copy immediately while refreshing it in the background. Anything per-user or sensitive should be `private` or not cached by shared caches at all.
+
+## Trade-offs
+
+Stale-while-revalidate gives consistently fast responses and eventual freshness, but means users can briefly see outdated data right after a change — acceptable for a product description, less so for an account balance. A short TTL keeps data fresher but means more requests reach the origin under load, reducing the caching benefit precisely when it matters most.
+
+## Pitfalls
+
+A **cache stampede** happens when a popular key expires and many concurrent requests all miss at once, each independently hitting the origin to repopulate the same key — turning one expiry into a burst of redundant load. An overly broad cache key — forgetting to vary on a cookie or auth header — can serve one user's personalized response to another, a serious correctness and privacy bug. And a write that should invalidate a cached read is easy to forget, leaving the cache serving stale data indefinitely until the TTL eventually expires.

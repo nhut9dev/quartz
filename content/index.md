@@ -78,6 +78,11 @@ Jump straight into a topic:
 - [[context-performance|Context performance]], [[reducer-pattern|Reducer pattern]], [[hydration-mismatch|Hydration mismatch]], and [[server-component-boundary|Server Component boundary]]
 - [[react/testing/|React testing]], [[react-testing-library|React Testing Library]], [[component-test|Component test]], and [[mocking-api|Mocking API]]
 
+## Frameworks
+
+- [[frameworks/|Other frameworks]], [[vue|Vue]], [[svelte|Svelte]], [[angular|Angular]], and [[solidjs|Solid]]
+- [[signals|Signals]]
+
 ## Accessibility
 
 - [[accessibility/|Accessibility]], [[semantic-html|Semantic HTML]], [[aria|ARIA]], and [[accessible-name|Accessible name]]
@@ -89,6 +94,15 @@ Jump straight into a topic:
 - [[design/|Design]], [[design/color-theory|Color theory]], [[design/color-palette|Color palette]], and [[design/typography|Typography]]
 - [[design/spacing|Spacing]], [[design/white-space|White space]], [[design/visual-hierarchy|Visual hierarchy]], and [[design/layout-and-composition|Layout and composition]]
 - [[design/alignment|Alignment]], [[design/design-scale|Design scale]], [[design/design-critique|Design critique]], and [[accessibility/color-contrast|Color contrast]]
+
+## Animation
+
+- [[animation/|Animation]], [[web-animations-api|Web Animations API]], [[request-animation-frame|requestAnimationFrame]], and [[gsap|GSAP]]
+
+## Graphics & Visualization
+
+- [[graphics/|Graphics & Visualization]], [[canvas-api|Canvas API]], [[svg|SVG]], and [[webgl|WebGL]]
+- [[charting-libraries|Charting libraries]]
 
 ## Node.js
 
@@ -183,6 +197,10 @@ Jump straight into a topic:
 - [[frontend-architecture/|Frontend architecture]], [[folder-structure|Folder structure]], and [[component-boundary|Component boundary]]
 - [[state-location|State location]], [[api-client|API client]], and [[design-system|Design system]]
 - [[container-presentational-component|Container and presentational components]], [[server-state-vs-client-state|Server state vs client state]], [[shared-ui|Shared UI]], and [[error-state-design|Error state design]]
+
+## i18n
+
+- [[i18n/|i18n implementation]], [[i18next|i18next]], [[react-intl|react-intl]], and [[next-intl|next-intl]]
 
 ## Product Engineering
 

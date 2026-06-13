@@ -25,3 +25,19 @@ class LoginPage {
 Page objects can reduce duplication when many tests use the same workflow.
 
 Keep them thin. If a page object hides every assertion and action, tests become harder to read because the user flow disappears behind method names.
+
+## How it works
+
+A page object wraps the locators and actions for one page or component behind a class, so tests call `loginPage.login(email, password)` instead of repeating `page.getByLabel("Email").fill(...)` in every test. When the page's markup changes, only the page object's internals need updating — tests that call its methods stay unchanged.
+
+## When to use
+
+Introduce a page object once a workflow — login, adding an item to a cart, a multi-step form — is repeated across multiple tests; the repetition is what the page object removes. For a one-off interaction used in a single test, the indirection adds a file and a lookup step without saving anything.
+
+## Trade-offs
+
+Centralizing locators turns a markup change into a one-line fix instead of a find-and-replace across the suite — but it adds a layer between the test and the page, so understanding what a test actually does means opening the page object too.
+
+## Pitfalls
+
+A page object that wraps every assertion as well as every action hides the test's intent entirely — `loginPage.loginAndExpectSuccess(email, password)` says nothing about what "success" means without reading the method body, where a few inline lines would have shown it directly. The opposite failure is a page object so thin it just renames `page.getByRole(...)` calls one-to-one — at that point it's an indirection layer that removes no real duplication.

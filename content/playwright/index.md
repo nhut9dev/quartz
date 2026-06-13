@@ -30,3 +30,8 @@ Playwright is a browser automation and end-to-end testing framework. These notes
 - [[network-interception|Network interception]]
 - [[trace-viewer|Trace Viewer]]
 - [[page-object-model|Page Object Model]]
+
+## Test quality
+
+- [[playwright/flaky-test|Flaky test]]
+- [[visual-regression-test|Visual regression test]]

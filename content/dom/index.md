@@ -34,3 +34,16 @@ The DOM is the browser's live, tree-shaped representation of the page that JavaS
 - [[abort-controller|AbortController]]
 - [[custom-event|CustomEvent]]
 - [[template-element|template element]]
+
+## Other browser APIs
+
+- [[drag-and-drop-api|Drag and Drop API]]
+- [[clipboard-api|Clipboard API]]
+- [[geolocation-api|Geolocation API]]
+- [[web-share-api|Web Share API]]
+
+## Mobile web
+
+- [[touch-events|Touch events]]
+- [[pointer-events|Pointer events]]
+- [[viewport-meta|Viewport meta tag]]

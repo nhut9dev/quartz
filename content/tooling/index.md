@@ -18,6 +18,10 @@ These notes cover bundlers, compilers, formatters, package managers, and reposit
 - [[babel|Babel]]
 - [[swc|SWC]]
 
+## Component tooling
+
+- [[storybook|Storybook]]
+
 ## Quality and workspace
 
 - [[eslint|ESLint]]

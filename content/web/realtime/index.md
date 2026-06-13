@@ -10,5 +10,8 @@ Patterns for delivering data without the client polling: persistent connections,
 
 - [[websocket|WebSocket]]
 - [[server-sent-events|Server-Sent Events]]
+- [[long-polling|Long polling]]
+- [[socket-io|Socket.IO]]
+- [[webrtc|WebRTC]]
 - [[webhook|Webhook]]
 - [[web-push|Web push]]
