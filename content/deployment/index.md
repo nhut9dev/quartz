@@ -19,13 +19,13 @@ Deployment turns an application into a running service users can reach. These no
 - [[canary-deployment|Canary deployment]]
 - [[zero-downtime-deployment|Zero-downtime deployment]]
 - [[feature-flag|Feature flag]]
-- [[../k8s/|Kubernetes]]
+- [[kubernetes|Kubernetes]]
 - [[infrastructure-as-code|Infrastructure as code]]
 
 ## Runtime operations
 
-- [[../docker/|Docker]]
-- [[../docker/docker-compose|Docker Compose]]
+- [[docker|Docker]]
+- [[docker-compose|Docker Compose]]
 - [[nginx|Nginx]]
 - [[health-check|Health check]]
 - [[logging|Logging]]

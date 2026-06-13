@@ -37,4 +37,5 @@ Use patterns as vocabulary, not as requirements. A pattern helps only when it re
 - [[proxy-pattern|Proxy]]
 - [[composite|Composite]]
 - [[repository|Repository]]
+- [[unit-of-work|Unit of work]]
 - [[mvc-mvvm|MVC and MVVM]]

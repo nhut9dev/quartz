@@ -27,5 +27,6 @@ SRE work keeps production systems reliable, observable, and recoverable.
 - [[backup-restore|Backup and restore]]
 - [[container-image-layering|Container image layering]]
 - [[../k8s/ingress|Ingress]]
+- [[kubernetes-ingress|Kubernetes ingress]]
 - [[sre/secret-rotation|Secret rotation]]
 - [[golden-signals|Golden signals]]

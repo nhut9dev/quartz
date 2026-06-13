@@ -17,6 +17,7 @@ Databases store application state so it survives server restarts and can be quer
 - [[normalization|Normalization]]
 - [[foreign-key|Foreign key]]
 - [[join|Join]]
+- [[cte|Common table expression]]
 - [[prepared-statement|Prepared statement]]
 
 ## Correctness and performance
@@ -24,14 +25,18 @@ Databases store application state so it survives server restarts and can be quer
 - [[acid|ACID]]
 - [[transaction|Transaction]]
 - [[isolation-level|Isolation level]]
+- [[mvcc|MVCC]]
 - [[deadlock|Deadlock]]
 - [[optimistic-locking|Optimistic locking]]
 - [[pessimistic-locking|Pessimistic locking]]
 - [[database-index|Database index]]
 - [[composite-index|Composite index]]
+- [[index-internals|Index internals]]
 - [[connection-pool|Connection pool]]
 - [[query-optimization|Query optimization]]
 - [[query-plan|Query plan]]
+- [[explain-analyze|EXPLAIN ANALYZE]]
+- [[window-function|Window function]]
 - [[n-plus-one-problem|N+1 problem]]
 - [[cursor-pagination|Cursor pagination]]
 - [[materialized-view|Materialized view]]
@@ -43,8 +48,12 @@ Databases store application state so it survives server restarts and can be quer
 - [[sharding|Sharding]]
 - [[partitioning|Partitioning]]
 - [[nosql|NoSQL]]
+- [[distributed-transaction|Distributed transaction]]
 
 ## Application layer
 
 - [[orm|ORM]]
+- [[prisma|Prisma]]
+- [[drizzle|Drizzle]]
+- [[typeorm|TypeORM]]
 - [[soft-delete|Soft delete]]

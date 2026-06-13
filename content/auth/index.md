@@ -33,3 +33,8 @@ Auth covers how users prove identity and how systems decide what they are allowe
 
 - [[rbac|RBAC]]
 - [[abac|ABAC]]
+
+## Libraries
+
+- [[nextauth|NextAuth (Auth.js)]]
+- [[passport|Passport.js]]

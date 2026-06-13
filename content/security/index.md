@@ -39,6 +39,7 @@ These notes focus on practical concepts that appear in everyday web applications
 - [[ssrf|SSRF]]
 - [[replay-attack|Replay attack]]
 - [[cors-misconfiguration|CORS misconfiguration]]
+- [[brute-force-protection|Brute-force protection]]
 
 ## Cryptography
 
